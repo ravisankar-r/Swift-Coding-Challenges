@@ -35,7 +35,7 @@ public class MatchingParanthesis {
                       let matchingBrace = matchingDict[char],
                       last == matchingBrace {
                 
-                stack.popLast()
+               _ = stack.popLast()
             }
         }
         return stack.isEmpty
